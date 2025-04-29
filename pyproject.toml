@@ -1,0 +1,18 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.7",
+    "langchain-anthropic>=0.3.12",
+    "langchain-community>=0.3.23",
+    "langchain-huggingface>=0.1.2",
+    "langchain[anthropic]>=0.3.24",
+    "langgraph>=0.4.0",
+    "langgraph-checkpoint-sqlite>=2.0.6",
+    "pypdf>=5.4.0",
+    "tavily-python>=0.7.0",
+    "voila>=0.5.8",
+]
